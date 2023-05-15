@@ -35,7 +35,7 @@ class BaseModel:
         storage.save()
 
     def to_dict(self):
-        """Convert instance inot dict format"""
+        """Convert instance into dict format"""
         dictionary = {}
         dictionary.update(self.__dict__)
         dictionary.update({'__class__':
