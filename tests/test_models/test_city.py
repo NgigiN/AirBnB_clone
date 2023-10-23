@@ -6,7 +6,7 @@ import unittest
 import os
 
 
-class TestCityDocs(unittest.TestCase):
+class test_CityDocs(unittest.TestCase):
     """ validate docstring in the class """
 
     def test_doc_class(self):

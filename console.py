@@ -56,7 +56,7 @@ class HBNBCommand(cmd.Cmd):
         """Does nothing when an empty line."""
         pass
 
-    def do_quit(self, arg):
+    def dquit(o_self, arg):
         """Exit the console"""
         return True
 
